@@ -1,0 +1,33 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the navigation */
+
+/* Basic Styles */
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Open Sans, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(
+        to bottom,
+        rgba(202, 244, 255, 0.5),
+        rgba(90, 178, 255, 0.8)
+    );
+    background-repeat: no-repeat;
+}
+
+#btn {
+    margin: 100px 0 0 100px;
+    padding: 15px 40px;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
